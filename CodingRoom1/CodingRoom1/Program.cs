@@ -18,7 +18,7 @@ namespace SelectionCandidat
             }
             //déclaration de mes variables, récupération des paramètres de ma liste
             //.Split = méthode qui permet de créer un tableau de sous-chaînes en fractionnant la chaîne d'entrée
-            //en fonction d'un ou plusieurs délimiteurs
+            //en fonction d'un ou plusieurs délimiteurs (
 
             int grille = Int32.Parse(data[0]);
             string[] xy = data[1].Split(",");
